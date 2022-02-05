@@ -342,3 +342,61 @@ With all of this we completed two of the four tasks of the systems thinking.
 2. Identify the entities, their function, and form  
     2.1 Focus on the minimum number of essential entities  
     2.2 Draw a boundary to divide the system from its context
+
+
+## Function Relationships
+
+The third step is to identify the relationships amongst the entities, their form and function. A system becomes a system because the relationships otherwise, it's just a collection of independent entities.
+
+- Relationship Form
+    - How things are connected
+    - Structure
+        - Exists
+        - Is implemented
+        - It is stable
+        - Can be photographed
+    - What the relationships are
+    - Enables interaction, is the instrument of interaction
+    - Types of structures
+        - Connections
+        - Electrical wire
+        - Fluidic pipes
+        - Data buses
+        - Mechanical connectors
+        - Location. Eg: people can talk when they are in the same room
+        - Sequence. Eg: In software or in a book
+    - Where is a interaction there is an element of structure
+    - When a relationship of the system cross the system boundary, these interface have both form and function.
+    - 
+- Relationship Function
+    - How things interact
+        - What the relationships do
+    - Remember emergence occurs in the functional domain
+    - The interaction happen, it takes place along a timeline
+    - Types of interactions
+        - One entity affects another. Eg: a wheel moves the bike 
+        - An operand is passed from one entity for another. Eg: a package from a manufacturer for a costumer trough a distributor
+        - An operand is share amongst entities. Eg: a design document between two teams working in the same project
+        - Are represented by unidirectional or bidirectional arrows
+        - Relationships can occur within the context or between entities that are in the system boundary and outside
+        - All these functional relationships are interactions that allow the overall system function to emerge.
+
+
+
+Function Relationships
+- A group of entities become a system when there are relationships 
+- Relationships have form and function – emergence happens as a direct result of functional relationships 
+- Functional relationships are inter-actions – one entity affects another, an operand is passed or an operand is shared 
+- Functional relationships can be among the entities within the system, or with entities outside the system in the context 
+
+Formal Relationships
+- Where there is a functional relationships (an interaction) there is usually a formal relationship (the structure) 
+- The functional interaction is usually enabled by a formal relationships 
+- Structure can include all kinds of connections, as well as location and sequence. 
+- When structure and interaction cross a system boundary, careful system thinking is required 
+
+With this we conclude tree of the four tasks in system thinking.
+1. Identify the system, its function, and form
+2. Identify the entities, their function and form
+3. Identify the relationships, their relation, and form
+
