@@ -159,13 +159,14 @@ Informational Form can be:
 
 
 ```
-|--------------|
-|     Form     |
-| |----------| |
-| | Process  | |
-| | Operand  | |
-| |----------| |
-|--------------|
+┌──────────────────┐
+│  Form            │
+│ ┌──────────────┐ │
+│ │  Process     │ │
+│ │  Operand     │ │
+│ └──────────────┘ │
+│                  │
+└──────────────────┘
 ```
 
 Form and Function are separate and complementary aspects of a system. But why Form is important if Emergence occur in the Function domain? The Form needs to be there in order to enable the function.
@@ -190,3 +191,154 @@ under budget        -> Salaries            <-> Team of people
 - Form is the instrument of function – what the system does
 - Value is benefit at cost, benefit derives from function, cost is dependent on form
 - Abstractions help make systems appear simple by hiding un-needed details
+
+
+### Identifying Entities
+
+After identify the system, its function, and form we can identify the entities, their function, and form too.
+
+The relationship between the whole, the system, and the parts, the entities, is one of the most important aspects of system thinking. The system can be decomposed into the entities. And the entities can be composed into the whole system.
+
+Decomposition. Breaking the problem up into smaller problems.
+- Start by identifying the system of interest
+- Then the important entities that compose the systems
+- The entities are subdivision of the system. They are also known as subsystems, parts, modules, elements, etc.
+- Both the systems and its entities have form and function
+
+```
+                                    System of Interest
+                                   ┌──────────────────┐
+                                   │  Form            │
+                                   │ ┌──────────────┐ │
+                      ┌────────────┤ │  Process     │ ├─────────────┐
+                      │            │ │  Operand     │ │             │
+                      │            │ └──────────────┘ │             │
+                      │            │                  │             │
+                      │            └─────────┬────────┘             │
+                      │                      │                      │
+                      │                      │                      │
+            ┌─────────▼────────┐   ┌─────────▼────────┐   ┌─────────▼────────┐
+            │  Form            │   │  Form            │   │  Form            │
+            │ ┌──────────────┐ │   │ ┌──────────────┐ │   │ ┌──────────────┐ │
+Subdivision │ │  Process     │ │   │ │  Process     │ │   │ │  Process     │ │
+            │ │  Operand     │ │   │ │  Operand     │ │   │ │  Operand     │ │
+            │ └──────────────┘ │   │ └──────────────┘ │   │ └──────────────┘ │
+            │                  │   │                  │   │                  │
+            └──────────────────┘   └──────────────────┘   └──────────────────┘
+                                      Subsystem
+                                      Part
+                                      Module
+                                      Element
+```
+
+The relationships between the parts flows two ways. These flows can be applied to organizational, physical and informational systems.
+Decomposition:
+- Top down
+- Divide the system into smaller entities  
+Composition
+- Bottom up
+- The system is defined composing the entities or modules
+
+The entities of a system are often represented in the hierarchy. The system has function and form. Each of the entities of the system will also be a system and have function and form. Sometimes, the hierarchy reflects on form. Some entities just have a higher rank or position.
+
+One of the things that we work on with people is how do you build an understanding of what are the modules, or subsystems, or components, whatever you want to call them. How do you limit the size of those components, so that they're within the bounds of human understanding? They have to be small enough so a human or a team of humans can understand the functioning of that component, individually.
+
+Example
+```
+                 Graphical Interface
+                        ┌─────┐
+        ┌───────────────┤     ├───────────────┐
+        │               └──┬──┘               │
+        │    Business      │                  │
+     ┌──▼──┐   Logic    ┌──▼──┐            ┌──▼──┐
+   ┌─┤     ├─┐        ┌─┤     ├─┐        ┌─┤     ├─┐
+   │ └─────┘ │        │ └─────┘ │        │ └─────┘ │
+   │         │        │         │ Utilities        │
+┌──▼──┐   ┌──▼──┐  ┌──▼──┐   ┌──▼──┐  ┌──◄──┐   ┌──▼──┐
+│     │   │     │  │     │   │     │  │     │   │     │
+└─────┘   └─────┘  └─────┘   └─────┘  └─────┘   └─────┘
+```
+
+Structuring a system that way we limit the extent to which bad emergence happens in a system.
+
+- A system can be decomposed into entities, and entities can be composed into a system. 
+- This decomposition and composition is one of our most powerful tools in managing complex systems. 
+- Every system is part of a larger system and can be decomposed into smaller systems. 
+- Every system and entity can be thought of as an abstraction with form and function. 
+- Systems and entities can be placed in a hierarchy based on issues of form or function. 
+
+
+## Systems Boundaries
+
+Boundary establishes the entities inside the system (inside the boundary) and the ones outside the system (context). Inside the boundaries the entities could include entities that are highly interwoven into the system, entities essential to the function of the system, or entities supplied or controlled by you. 
+- Highly interwoven
+- Essential to the function
+- Controlled by us
+
+The complexity of a system scale with number.
+- Find the minimum number of essential entities
+- From 5 to 9 (7+-2)
+- 7+-2: acknowledged cognitive limit
+
+The boundary is very important because what's inside and what I care about is the scope of the work. What's outside are the things that are going to impact my work.
+```
+                    Boundary
+              ┌───────────────────────────┐
+              │                           │
+              │ ┌────────┐                │
+              │ │        │                │
+Context       │ │        │                │
+  ┌────────┐  │ └────────┘    ┌────────┐  │
+  │        │  │               │        │  │
+  │        │  │               │        │  │
+  └────────┘  │ ┌────────┐    └────────┘  │
+              │ │        │                │
+              │ │        │                │
+              │ └────────┘                │
+              │                           │
+              └───────────────────────────┘
+```
+- Boundary can change and should be checked from time to time
+
+To better understand how to refine the entities and boundaries we can separate them in two categories, Holism and Focus.
+- Holism
+    - Thinking as widely as is reasonable to consider what should be in the system
+    - Give us confidence that we're not missing the unknown
+    - How each of these components contributes on the large system (eg: performance)
+- Focus 
+    - Focus in what is truly important
+    - It may change from day to day depending on the issues we're considering
+    - Try to have a number from 5 to 7 entities
+    - Just focus on what the contribution of the individual components are
+
+Systems have tree main entities categories
+- Entities in the system
+- Entities there are not in the system but are in the context
+    - Emerge function and performance
+- Entities temporariliy supress
+  
+
+Finaly
+- Identify the entities by decomposition or composition 
+- Try to limit the number of entities to 7 +/- 2 
+- Use holistic thinking to identify all reasonable entities of a system 
+- Focus on the minimum set of essential entities 
+- Draw a boundary that divides the system from its context 
+
+Remember that system thinking distinguishes three categories of entities: the entities `in the system`, the ones not in the system but are `in the context`, and those that are temporarily `suppressed`.
+
+Example:  
+The perspective of the rider who wants to safely and reliably ride to work in 15 minutes.
+Entities: bike wells, bike seat, bike frame, ground, rider (you), helmet, traffic signals, weather, companion rider, GPS, water bottle, cars
+
+- The entities that span all three criteria (essential to function delivery, integral and highly interwoven into the system, and developed/supplied by you or a supplier) are all part of the system.  
+- The entities that are essential to function delivery but are not part of the bicycle (e.g., rider, ground, helmet, and traffic signals) provide context to the system.  
+- The remaining are temporarily suppressed.
+
+These criteria should be taken as guidelines for deciding where to place entities, and not as absolute truths. For example, you could argue that the cars on the road are as important to safety as the traffic signals. We made this placement because the traffic signals are part of nominal operations, while the cars only pose a hazard when their driver makes an error. But it is a close call and relies on your judgement. You should also keep in mind the 7 +/-2 guidance.
+
+With all of this we completed two of the four tasks of the systems thinking.
+1. Identify the system, its function, and form
+2. Identify the entities, their function, and form  
+    2.1 Focus on the minimum number of essential entities  
+    2.2 Draw a boundary to divide the system from its context
