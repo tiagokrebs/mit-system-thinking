@@ -35,10 +35,13 @@ Predicting emergence is the hardest thing to do in system thinking, and it's the
 Types of understanding:
 - Precedent
     - You know from your past
+    - May not be enough
 - Experimentation
     - Build the real thing and test it
+    - Can be expensive to build
 - Modeling
     - Construct an analytical or numerical model
+    - Can be hard to make complete
 - Human reasoning
     - When none of these methods are available you can only use your cognitive reasoning and your skills in systems thinking. 
 
@@ -49,3 +52,71 @@ The way in which the entities of the system are connected, the structure, plays 
 - For unprecedented systems, where modeling and experimentation are not easy, only human reasoning is available to predict emergence 
 - This is the real goal, and the real art in System Thinking 
 
+## Success and Failures
+
+Success or failure of a system emerges as the system operates.
+Success:
+- Success must be a system success.
+- All the parts must work and execute their function.
+- And all the interactions must work and enable successful emergence.
+Failure:
+- There are types of failure
+    - The weakest link
+        - Failure of a single entity
+        - The right function does not emerge from an entity or from a connection
+        - The weakest link type o failure
+    - System failure
+        - All entities and interactions work but failure emerges
+
+
+- For systems to succeed, all the entities and all of the relationships have to be functioning.
+- A system can fail if one entity or one relationship—the weak link in the chain—fails to function. 
+
+## Last Key Points
+
+- Everything is a system. 
+- System thinking is just thinking about things as systems. 
+- A system is a set of interrelated entities whose functionality is greater than the sum of the parts. 
+- New functionality, performance, and non-functional attributes emerge as a system comes together. 
+- Predicting and understanding emergence is the real goal and the real art of system thinking. 
+- The four key tasks of system thinking are:
+    - To think about a system as form and function. 
+        - Form is what the system is. Function is what the system does. 
+    - Think about the entities of the system. 
+        - They have form that enables their function. 
+    - Think about the relationships. 
+        - The structure that enables the interaction. 
+    - Reason how the function of the entities interacts to produce emergence and value.   
+- Thinking about a system holistically, as widely as practical, and then being prepared to focus on the essential features. 
+- Creating abstractions that reveal necessary information and conceal complexity. 
+- Thinking about the whole and the parts, composition and decomposition.
+- Creating a hierarchy and reasoning top-down and bottom-up. 
+- Defining system boundaries and interfaces, separating the system from the context. 
+- Using human reasoning supported by precedent, modeling, and experiments to predict emergence. 
+- We need to respect the cognitive limit of 7 plus or minus 2. And it helps to visualize issues in system thinking by using icons and simple models. 
+- Sometimes we have to anticipate what might be. 
+    - Will our product be successful? 
+    - Will our group be reorganized? 
+    - Will our lives be rewarding? T
+    - hese are all future issues that might be informed by system thinking
+- How is system thinking used? 
+    - First, it's used simply to understand what already is. We're surrounded by many complex systems. 
+    - We use system thinking to make sense of our products and research questions, our organization, our family, and our lives. 
+    - We can use system thinking to help synthesize new systems. 
+- In system design, the desired functions, and performance are called the high-level specification or system-level functional requirement. 
+    - System design is the process of defining entities and relationships that collectively enable the emergence called for in the specification.
+    -  Ultimately, the role of system thinking is to help us make complex things appear simple. 
+
+We routinely encounter really complex technical systems, complex social systems, and complex natural systems, including our natural environment. In reality, these systems are just too complex for us to understand. 
+
+We have to use the tools of system thinking so that these complex systems become simple enough to be understood. Some common professional systems we encounter are teams at work, the products we build, and the problems we solve. And there are also systems in community. Wellness, commuting, meals, family, and relationships, they're all systems. Try them for practice. 
+
+We've discussed a very useful approach to system thinking. 
+- It includes considering the form of the system, what it is, and then there's the function of the system, what it does. 
+-  We have defined the architecture of the system, what it's capable of doing.
+- But we've not yet discussed the dynamic behavior of the system, what the system actually does along a timeline. That requires further consideration. 
+
+in summary, system thinking is thinking of things as systems:
+- entities and relationships 
+- form and function
+- emergence and value
