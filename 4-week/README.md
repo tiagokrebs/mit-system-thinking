@@ -6,3 +6,84 @@ Now we're going to view the project management simulator as a system, applying s
 
 ![Project Physics](./project_physics.png)
 
+In every phase:
+- There is a certain amount of work remaining
+    - tasks
+    - code
+    - maintenance
+- There us a rate which work is completed
+    - task/week
+    - flow out of the remaining work
+- The rate of completion depends on tree factors
+    - headcount
+    - hours worked
+    - productivity (task/person-hour)
+    ```
+    Total work completion = headcount * hours worked * productivity
+    (tasks/week)          = (people)  * (hous/week)  * (tasks/person-hour)
+    ```
+- There is schedule pressure
+    - how much work need to be done, the rate of work completion, in order to hit the deadline given the work remaining compared to the time remaining in which to that work given the headcount and the productivity that you expect.
+    - if the work remaining rises, schedule pressure rise
+    - if time remaining rises, schedule pressure fall
+    - polarities in the causal loop indicate how the variable at the head of the arrow will change based on a change in the variable at the tail of the arrow
+- There is time remaining
+    - the difference between the deadline for the project or that phase of the project and what date it is right now today.
+
+### Feedback loop
+
+Now, the question is what kinds of feedback relationships are created by the various actions that people take to get a project that's behind back on track?
+
+![Feedbacl Loop](./feedback_loop.png)
+
+
+- Schedule pressure (bold blue arrow)
+    - Increases work hours
+
+But what happens if we use overtime too much for too long?
+- Fatigue (red arrows)
+    - Tired people make more mistakes and have lower productivity
+- Reinforced feedback loop
+    - More `schedule pressure` lead to more `work hours`
+    - More `work hours` create `fatigue` and reduces `productivity`
+    - Less `productivity` reduces `work completion`
+    - Less `work completion` increases the `schedule pressure` again
+    - This is a vicious loop or a reinforced loop (big red 'R')
+    - What that means is there's an unintended consequence of using overtime, especially if you use it too much and too long. And that unintended consequence undermines productivity and harms your progress and might actually lead to more schedule pressure.
+
+Takeaways:
+- Always name feedback loops
+
+## Adding errors to our model
+
+Now the model have two flows after the work is completed. We recognize that some work has been done correctly and is actually completed, and some work has been done incorrectly and flow to a `undiscovered rework` bucket.
+
+![Errors](./errors.png)
+
+- Is undiscovered because we don't know yet that we made an error. It need to be discovered through testing and quality insurance.
+- The sum of `work actually completed` and `undiscoovered work` is the work we believe is done
+- More `Error fraction` result in less work done correctly and more undiscovered work
+- By the model undiscovered work can be discovered by only by a testing process
+
+### Feedback loop
+
+![Errors Feedback Loop](./errors_loop.png)
+
+- From the past example, `schedule pressure` increases `workweek` that increases `fatigue`
+- `Fatigue` increases the `error fraction`
+- `Error fraction` increases the amount of `undiscovered work`
+- `Error discovery` goes up and increases `work remaining`
+- And again the loop return to more schedule `pressure`
+- This is the `Too tired to think straight` reinforced feedback loop
+
+We can think in a few more actions that increase error in this model.
+- Instead of only increase the workweek, we can cut corners, leave testing, documentation and even some nonessential parts behind.
+    - Haste make waste reinforced feedback loop
+- A big amount of accumulated undiscovered rework will increase the error fraction even further
+    - Shifting foundations reinforced feedback loop
+    - The delivery is being done but incorrectly
+- Cut the testing phase
+    - Three Monkeys reinforced feedback loop
+    - Hear no evil, speak no evil, see no evil, the amount of work will pile up
+
+![Errors Feedback Loop](./errors_loop2.png)
