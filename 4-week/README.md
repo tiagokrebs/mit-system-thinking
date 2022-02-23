@@ -87,3 +87,77 @@ We can think in a few more actions that increase error in this model.
     - Hear no evil, speak no evil, see no evil, the amount of work will pile up
 
 ![Errors Feedback Loop](./errors_loop2.png)
+
+### Real World Pressures
+
+- Schedule pressure
+- Management pressuring
+- Shorten the time to develop the product
+- Not increasing budget
+- Not giving training
+- Etc
+
+> The technology may not be ready before alpha phase. Sometimes we have no choice, we just have to put something in.
+
+> Often, we'll put [early prototype] parts in a [later prototype]... There's no getting around it, as long as we have to go fast.
+
+> We might be able to finish the part, finis the FMEA's (Failure Modes Effects Analysis), etc. We'll do the FMEA's, but we won't be as thorough as they would [be] otherwise.
+
+> We haven't done the FMEA yet. We just don't have the time to do it.
+
+How the project come in on time and under a budget? We:
+- Cut corners
+- Weren't careful
+- Made a lot of errors
+- Didn't report any of those errors
+- Passed them off to the next phase
+- Didn't do any testing
+- Didn't do any training
+- Didn't document the work
+- Didn't train and mentor anybody
+- Didn't coordinate with any of the other parts of our organization
+
+The problem is that nobody say that. Instead, you know that you're doing these things, but you cover them up. This is the `LIAR'S CLUB`. Concealing know rework requirements from managers and colleagues.
+
+There is this cultural commandment that contributes for this situation. It is not only wrong but introduces extra delay in the discovery of the rework.
+> There is a basic cultural commandment in engineering - don't tell someone you have a problem unless you have the solution. You're supposed to solve it - and then tell them - Senior Engineer
+
+Another wrong cultural behavior observed is the `SELF-CONFIRMING ATTRIBUTION ERROR`. First, people learn never to reveal problems because they're going to get yelled at if they do. Secondly, bosses learn that it's only by yelling at people that you're going to get people to start buckling down and solving their problems.
+
+> Nobody ever gets credit for fixing problems that never happened - Senior Engineer
+
+Takeaways:
+- Blaming employees often leads to workers' tendency to conceal problems and managers overestimate the impact of their get-tough policy. This is an example of a self-confirming attribution error.
+- It is faster and cheaper to correct problems when rework is discovered earlier, rather than later.
+- System dynamics can be used to validate behavior in project organizations, such as whether management intervention leads to improvements in performances.
+
+### Lessons Learned
+
+- When should you hire for your project?  
+Hire upfront. Start with more people than the plan.
+
+- When should you use overtime?
+Sparingly, and only at the end of a project. Limit it.
+
+- When should you cut corner?
+Never.
+
+- When you should cut testing?
+Never.
+
+You avoid situation of pressure and fail in delivering a project by making sure you've got ample resources and emphasizing quality throughout. `Stop the project because people aren't doing the right thing. Don't stop the project because people are not hitting their deadlines`.
+
+The result in not doing these things is of course rework.
+
+Example of a system dynamic model of a large-scale projects.
+
+![Rework Cycle](./rework.png)
+
+- There is work to be done
+- Some of this work is made incorrectly, that leads to undiscovered rework
+- When this is discovered by testing, it enters a pool of know rework
+
+And late customer changes make some of the work that you have done correctly obsolete, further increasing the known rework and the schedule pressure. And there is a huge network of feedbacks around these flows, and they tend to have the characteristic that once a project starts to fail, these reinforcing feedback loops act as vicious cycles that further amplify the distress.
+
+![Customer Change Feedback Loop](./customer_change_feedback.png)
+
