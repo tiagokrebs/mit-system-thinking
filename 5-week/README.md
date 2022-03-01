@@ -68,3 +68,52 @@ Modern Logistics and Transportation Systems
 - Modern technologies such as artificial intelligence (AI) and machine learning (ML) enable us to go from data to models to decision and insights
 - We should be mindful about trade-offs between efficiency obtained from sharing information and security and privacy concerns
 
+
+## The Computational Approach to System Thinking
+
+- A system is an entity with interrelated and interdependent parts. It is defined by its modules, by the boundaries between the modules, and by their interaction
+- Computational systems thinking design process: database -> choose modules -> compose modules -> simulate and verify -> fabricate
+
+The robot compiler.  
+A compiler takes a high-level specification and delivers a working system. And in this case, the user could conceive an idea.
+
+Design Process
+- Database of parts
+- Interactive modeling
+- Rapid prototyping technology
+
+Rapidly creating systems that have complex functionality involves a software component and a hardware component.
+
+![Rapidly Deployable Robots](./dep_robots.png)
+
+- Each of the specific capabilities on the software and the hardware side can be package abstracted out and databased
+- The idea of doing computational design for complex systems fits in-between modular hierarchical machines and computational design and fabrication.
+- The challenges to implementing this idea have to do with creating the actual database of components because the approach is data-driven.
+    - `Data Driven Approach`
+        - Relies on a database that is seeded with low level designs, and some higher level designs created by experts.
+- Computational approach to systems thinking is data driven. Data driven approach relies on a database that is seeded with low level designs, and some higher level designs created by experts
+
+Once we have the database we need a process.
+- Database
+- Choose modules
+- Compose modules
+- Simulate modules
+- Simulate and Verify
+- Fabricate
+
+### The Database
+- The entities in a database are mechanical parts, electromechanical parts and software components
+- All database components have to be parametrized in order to have large representation and scalability from each existing component
+- The components need to be defined in a hierarchy way
+- We need to know how the components interact physically with one another
+- Also we need to know hot the components interact functionally with one another, what degrees of freedom do we allow at the connection
+- Every component should be parametrized
+- Every component also should have constraints, functional or requirements
+- The challenges to implementing this idea
+have to do with creating the actual database of components
+because the approach is data-driven.
+
+Next steps are about: composing the modules, Simulate, Verify, and Fabricate.
+
+- Computational approach to systems thinking is enabled by 3 important concepts: data driven specification, hierarchical composition, and simulation and verification.
+
